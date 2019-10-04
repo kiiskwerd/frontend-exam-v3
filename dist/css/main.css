@@ -105,11 +105,17 @@ img.rcmnd-cont__img {
   margin-top: 4px; }
 
 .article-title {
+  color: #000000;
   font-family: 'Yu Gothic', sans-serif;
   font-weight: bold;
   font-size: 17.889px;
   margin: 3px 15px 0px 0px;
   line-height: 24.888px; }
+
+.article-title:hover,
+.article-title:link {
+  text-decoration: none;
+  color: #e7ba2f; }
 
 .rcmnd-title {
   font-family: 'Yu Gothic', sans-serif;
@@ -119,6 +125,7 @@ img.rcmnd-cont__img {
   margin: 5px 0px -6px 0px; }
 
 .article-des {
+  color: #000000;
   font-family: 'Kozuka Gothic Pr6N', sans-serif;
   font-size: 12px;
   margin: 1px 15px 0px 0px; }
@@ -138,6 +145,9 @@ img.rcmnd-cont__img {
 .dummy-banner {
   position: relative;
   padding: 19px 21px 7px 20px; }
+
+.dummy-banner:hover {
+  cursor: pointer; }
 
 .recommend {
   font-family: 'Yu Gothic', sans-serif;
@@ -163,6 +173,9 @@ img.rcmnd-cont__img {
 
 .banner__dmy-container {
   margin: 19px 0px -10px 0px; }
+
+.banner__dmy-container:hover {
+  cursor: pointer; }
 
 .slidetxt_header {
   font-family: 'Yu Gothic', sans-serif;
@@ -379,11 +392,17 @@ img.rcmnd-cont__img {
   margin-top: 4px; }
 
 .article-title {
+  color: #000000;
   font-family: 'Yu Gothic', sans-serif;
   font-weight: bold;
   font-size: 17.889px;
   margin: 3px 15px 0px 0px;
   line-height: 24.888px; }
+
+.article-title:hover,
+.article-title:link {
+  text-decoration: none;
+  color: #e7ba2f; }
 
 .rcmnd-title {
   font-family: 'Yu Gothic', sans-serif;
@@ -393,6 +412,7 @@ img.rcmnd-cont__img {
   margin: 5px 0px -6px 0px; }
 
 .article-des {
+  color: #000000;
   font-family: 'Kozuka Gothic Pr6N', sans-serif;
   font-size: 12px;
   margin: 1px 15px 0px 0px; }
@@ -412,6 +432,9 @@ img.rcmnd-cont__img {
 .dummy-banner {
   position: relative;
   padding: 19px 21px 7px 20px; }
+
+.dummy-banner:hover {
+  cursor: pointer; }
 
 .recommend {
   font-family: 'Yu Gothic', sans-serif;
@@ -437,6 +460,9 @@ img.rcmnd-cont__img {
 
 .banner__dmy-container {
   margin: 19px 0px -10px 0px; }
+
+.banner__dmy-container:hover {
+  cursor: pointer; }
 
 .slidetxt_header {
   font-family: 'Yu Gothic', sans-serif;
@@ -558,6 +584,13 @@ header {
   font-size: 20px; }
 
 a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  cursor: pointer; }
+
+a.footer-pc__link:hover,
+a.footer-pc__link:visited,
+a.footer-pc__link:link,
+a.footer-pc__link:active {
   text-decoration: none;
   color: #ffffff; }
 

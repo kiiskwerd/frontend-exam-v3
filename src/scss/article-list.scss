@@ -149,11 +149,18 @@ img.rcmnd-cont__img {
 	margin-top: 4px;
 }
 .article-title {
+	color: $black;
 	font-family: 'Yu Gothic', sans-serif;
 	font-weight: bold;
 	font-size: 17.889px;
 	margin: 3px 15px 0px 0px;
 	line-height: 24.888px;
+}
+
+.article-title:hover, 
+.article-title:link {
+	text-decoration: none;
+	color: $yellow;
 }
 
 .rcmnd-title {
@@ -165,6 +172,7 @@ img.rcmnd-cont__img {
 }
 
 .article-des {
+	color: $black;
 	font-family: 'Kozuka Gothic Pr6N', sans-serif;
 	font-size: 12px;
 	margin: 1px 15px 0px 0px;
@@ -189,6 +197,10 @@ img.rcmnd-cont__img {
 	// z-index: 1;
 	position: relative;
 	padding: 19px 21px 7px 20px;
+}
+
+.dummy-banner:hover {
+	cursor: pointer;
 }
 
 .recommend {
@@ -221,3 +233,6 @@ img.rcmnd-cont__img {
 	margin: 19px 0px -10px 0px;
 }
 
+.banner__dmy-container:hover {
+	cursor: pointer;
+}

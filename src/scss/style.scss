@@ -27,6 +27,15 @@ header {
 
 a:hover, a:visited, a:link, a:active{
 	text-decoration: none;
+	// color: $white;
+	cursor: pointer;
+}
+
+a.footer-pc__link:hover, 
+a.footer-pc__link:visited,  
+a.footer-pc__link:link,
+a.footer-pc__link:active {
+	text-decoration: none;
 	color: $white;
 }
 
@@ -81,6 +90,7 @@ a.more-btn:hover {
 	color: $white;
 	background-color: $black;
 }
+
 .footer-pc__cont1 {
 	flex:5;
 	margin-left: 100px;
@@ -97,5 +107,3 @@ a.more-btn:hover {
 .btn-img {
 	right: 20px;
 }
-
-

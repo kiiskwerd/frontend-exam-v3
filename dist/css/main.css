@@ -1,0 +1,611 @@
+@charset "UTF-8";
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: center; }
+
+.container__1 {
+  flex: 1; }
+
+.container__2 {
+  display: flex;
+  flex: 7; }
+
+.container__2--flex-1 {
+  display: flex;
+  flex: 2; }
+
+.container__2--flex-2 {
+  display: flex;
+  align-items: flex-start;
+  flex: 1; }
+
+.container__3 {
+  flex: 1; }
+
+ul {
+  list-style-type: none; }
+
+.article-cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  position: relative;
+  padding-left: 4.5px;
+  top: 19px; }
+
+.rcmnd-cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  position: relative;
+  margin: 19px 20px 0px -20px; }
+
+.rcmnd-cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  position: relative; }
+
+.article-cont__itm {
+  display: flex;
+  margin-bottom: 32px;
+  align-items: stretch;
+  align-content: stretch; }
+
+.rcmnd-cont__itm {
+  display: flex;
+  margin-bottom: 12px;
+  align-items: stretch;
+  align-content: stretch; }
+
+img.article-cont__img {
+  float: left; }
+
+img.rcmnd-cont__img {
+  position: absolute;
+  float: left; }
+
+.article-cont__img {
+  flex: 1; }
+
+.rcmnd-cont__img {
+  flex: 1; }
+
+.article-cont__info {
+  flex: 3;
+  margin: -7px 0px -4px 14px; }
+
+.rcmnd-cont__info {
+  flex: 3;
+  margin: -6px 6px 0px 8px; }
+
+.time--muted {
+  font-family: 'Helvetica', sans-serif;
+  color: #999999;
+  font-size: 12.669px;
+  margin-top: 4px; }
+
+.r-time--muted {
+  font-family: 'Helvetica', sans-serif;
+  color: #999999;
+  font-size: 12.669px;
+  margin-top: 4px; }
+
+.article-title {
+  font-family: 'Yu Gothic', sans-serif;
+  font-weight: bold;
+  font-size: 17.889px;
+  margin: 3px 15px 0px 0px;
+  line-height: 24.888px; }
+
+.rcmnd-title {
+  font-family: 'Yu Gothic', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  margin: 5px 0px -6px 0px; }
+
+.article-des {
+  font-family: 'Kozuka Gothic Pr6N', sans-serif;
+  font-size: 12px;
+  margin: 1px 15px 0px 0px; }
+
+.rcmnd-des {
+  font-family: 'Kozuka Gothic Pr6N', sans-serif;
+  font-size: 12px;
+  margin: 1px 15px 0px 0px; }
+
+.gray-box {
+  z-index: -2;
+  position: relative;
+  background-color: #f3f3f3;
+  width: 100%;
+  margin: 34px 4px 0px 19px; }
+
+.dummy-banner {
+  position: relative;
+  padding: 19px 21px 7px 20px; }
+
+.recommend {
+  font-family: 'Yu Gothic', sans-serif;
+  margin: auto; }
+
+.recommend__title {
+  font-weight: bold;
+  font-size: 23px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  margin: 20px 0px -7px 6px; }
+
+.recommend__sep {
+  border-width: 1px;
+  width: 87%;
+  border-color: #000000; }
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 21px; }
+
+.banner__dmy-container {
+  margin: 19px 0px -10px 0px; }
+
+.slidetxt_header {
+  font-family: 'Yu Gothic', sans-serif;
+  color: #ffffff;
+  font-size: 63px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 18px; }
+
+.slidetxt_des p {
+  margin: -1px 2px;
+  margin-left: -23px; }
+
+.slidetxt_des {
+  font-family: 'Yu Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 2.06px; }
+
+.carousel__slidetxt {
+  text-align: center;
+  position: absolute;
+  top: 67px;
+  margin-left: 298px; }
+
+/*carousel*/
+.carousel {
+  margin-top: -9px;
+  position: relative; }
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden; }
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100; }
+
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out; }
+
+.carousel-item img {
+  z-index: -1;
+  position: relative;
+  height: auto;
+  max-width: 100%; }
+
+.carousel-control {
+  color: #ffffff;
+  cursor: pointer;
+  display: none;
+  height: 56px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10; }
+
+.carousel-control.prev {
+  left: 11.1%; }
+
+.carousel-control.next {
+  right: 11%; }
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block; }
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: -7.5%;
+  left: 4px;
+  right: 3px;
+  text-align: center;
+  z-index: 10; }
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 0 2px; }
+
+.carousel-bullet {
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 78px; }
+
+.carousel-bullet:hover {
+  color: #e7ba2f; }
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+  color: #e7ba2f;
+  font-style: normal;
+  font-weight: 400; }
+
+/* You can add global styles to this file, and also import other style files */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: center; }
+
+.container__1 {
+  flex: 1; }
+
+.container__2 {
+  display: flex;
+  flex: 7; }
+
+.container__2--flex-1 {
+  display: flex;
+  flex: 2; }
+
+.container__2--flex-2 {
+  display: flex;
+  align-items: flex-start;
+  flex: 1; }
+
+.container__3 {
+  flex: 1; }
+
+ul {
+  list-style-type: none; }
+
+.article-cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  position: relative;
+  padding-left: 4.5px;
+  top: 19px; }
+
+.rcmnd-cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  position: relative;
+  margin: 19px 20px 0px -20px; }
+
+.rcmnd-cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  position: relative; }
+
+.article-cont__itm {
+  display: flex;
+  margin-bottom: 32px;
+  align-items: stretch;
+  align-content: stretch; }
+
+.rcmnd-cont__itm {
+  display: flex;
+  margin-bottom: 12px;
+  align-items: stretch;
+  align-content: stretch; }
+
+img.article-cont__img {
+  float: left; }
+
+img.rcmnd-cont__img {
+  position: absolute;
+  float: left; }
+
+.article-cont__img {
+  flex: 1; }
+
+.rcmnd-cont__img {
+  flex: 1; }
+
+.article-cont__info {
+  flex: 3;
+  margin: -7px 0px -4px 14px; }
+
+.rcmnd-cont__info {
+  flex: 3;
+  margin: -6px 6px 0px 8px; }
+
+.time--muted {
+  font-family: 'Helvetica', sans-serif;
+  color: #999999;
+  font-size: 12.669px;
+  margin-top: 4px; }
+
+.r-time--muted {
+  font-family: 'Helvetica', sans-serif;
+  color: #999999;
+  font-size: 12.669px;
+  margin-top: 4px; }
+
+.article-title {
+  font-family: 'Yu Gothic', sans-serif;
+  font-weight: bold;
+  font-size: 17.889px;
+  margin: 3px 15px 0px 0px;
+  line-height: 24.888px; }
+
+.rcmnd-title {
+  font-family: 'Yu Gothic', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  margin: 5px 0px -6px 0px; }
+
+.article-des {
+  font-family: 'Kozuka Gothic Pr6N', sans-serif;
+  font-size: 12px;
+  margin: 1px 15px 0px 0px; }
+
+.rcmnd-des {
+  font-family: 'Kozuka Gothic Pr6N', sans-serif;
+  font-size: 12px;
+  margin: 1px 15px 0px 0px; }
+
+.gray-box {
+  z-index: -2;
+  position: relative;
+  background-color: #f3f3f3;
+  width: 100%;
+  margin: 34px 4px 0px 19px; }
+
+.dummy-banner {
+  position: relative;
+  padding: 19px 21px 7px 20px; }
+
+.recommend {
+  font-family: 'Yu Gothic', sans-serif;
+  margin: auto; }
+
+.recommend__title {
+  font-weight: bold;
+  font-size: 23px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  margin: 20px 0px -7px 6px; }
+
+.recommend__sep {
+  border-width: 1px;
+  width: 87%;
+  border-color: #000000; }
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 21px; }
+
+.banner__dmy-container {
+  margin: 19px 0px -10px 0px; }
+
+.slidetxt_header {
+  font-family: 'Yu Gothic', sans-serif;
+  color: #ffffff;
+  font-size: 63px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 18px; }
+
+.slidetxt_des p {
+  margin: -1px 2px;
+  margin-left: -23px; }
+
+.slidetxt_des {
+  font-family: 'Yu Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 2.06px; }
+
+.carousel__slidetxt {
+  text-align: center;
+  position: absolute;
+  top: 67px;
+  margin-left: 298px; }
+
+/*carousel*/
+.carousel {
+  margin-top: -9px;
+  position: relative; }
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden; }
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100; }
+
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out; }
+
+.carousel-item img {
+  z-index: -1;
+  position: relative;
+  height: auto;
+  max-width: 100%; }
+
+.carousel-control {
+  color: #ffffff;
+  cursor: pointer;
+  display: none;
+  height: 56px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10; }
+
+.carousel-control.prev {
+  left: 11.1%; }
+
+.carousel-control.next {
+  right: 11%; }
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block; }
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: -7.5%;
+  left: 4px;
+  right: 3px;
+  text-align: center;
+  z-index: 10; }
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 0 2px; }
+
+.carousel-bullet {
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 78px; }
+
+.carousel-bullet:hover {
+  color: #e7ba2f; }
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+  color: #e7ba2f;
+  font-style: normal;
+  font-weight: 400; }
+
+body {
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin: 0px;
+  width: 100%; }
+
+header {
+  position: relative;
+  font-family: 'Yu Gothic', sans-serif;
+  font-weight: bold;
+  font-size: 20px; }
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: #ffffff; }
+
+.for-more {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+  margin: 84px 190px 90px 0px; }
+
+.more-btn {
+  background-image: url("/images/btn-more.png");
+  width: 404px;
+  height: 40px; }
+
+a.more-btn:hover {
+  background-image: url("/images/btn-more-hvr.png");
+  width: 404px;
+  height: 40px; }
+
+.footer-btn-top {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+  margin: 20px; }
+
+.footer-pc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: flex-end;
+  color: #ffffff;
+  background-color: #000000; }
+
+.footer-pc__cont1 {
+  flex: 5;
+  margin-left: 100px; }
+
+.footer-pc__link {
+  margin-left: 20px; }
+
+.footer-pc__cont2 {
+  flex: 1; }
+
+.btn-img {
+  right: 20px; }

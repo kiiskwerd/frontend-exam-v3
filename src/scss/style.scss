@@ -1,0 +1,101 @@
+/* You can add global styles to this file, and also import other style files */
+@import "src/scss/article-list.scss";
+@import "src/scss/carousel.scss"; 
+$black: #000000 !default;
+$white: #ffffff !default;
+$yellow: #e7ba2f !default;
+$gray-txt-date: #999999 !default;
+$gray-btn: #333333 !default;
+$gray-banner: #666666 !default;
+$gray-aside: #f3f3f3 !default;
+
+body{
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin: 0px;
+  // width: 88.3%;
+  width: 100%;
+}
+
+header {
+  // font-family: 'Kozuka Gothic Pr6N', sans-serif;
+  position:relative;
+  font-family: 'Yu Gothic', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+a:hover, a:visited, a:link, a:active{
+	text-decoration: none;
+	color: $white;
+}
+
+.for-more {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-end;
+	margin: 84px 190px 90px 0px;
+}
+
+.more-btn {
+	background-image: url('/images/btn-more.png');
+	width: 404px;
+	height: 40px;
+}
+
+a.more-btn:hover {
+	background-image: url('/images/btn-more-hvr.png');
+	width: 404px;
+	height: 40px;
+}
+
+// .footer-pc {
+//   background-color: $black;
+//   color: $white;
+  // padding: 15px 0px;
+  // position:relative;
+// }
+
+// .footer-pc__copyright {
+// 	text-align: right;
+// }
+
+.footer-btn-top {
+	display: flex;
+	flex-wrap: nowrap;
+	align-content: flex-end;
+	justify-content: flex-end;
+	margin: 20px;
+}
+
+.footer-pc {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: flex-end;
+	color: $white;
+	background-color: $black;
+}
+.footer-pc__cont1 {
+	flex:5;
+	margin-left: 100px;
+}
+
+.footer-pc__link {
+	margin-left:20px;
+}
+
+.footer-pc__cont2 {
+	flex:1;
+}
+
+.btn-img {
+	right: 20px;
+}
+
+

@@ -9,7 +9,7 @@
   "author": "Karen Key Cabingatan",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.7.8",
+    "angular": "^1.7.9",
     "angular-route": "^1.7.8"
   },
   "devDependencies": {
